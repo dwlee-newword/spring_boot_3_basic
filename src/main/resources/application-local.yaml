@@ -1,0 +1,10 @@
+spring:
+  config:
+    activate:
+      on-profile: local
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/basic?serverTimezone=UTC&characterEncoding=UTF-8&tinyInt1isBit=false
+    username: dev
+    password: OntactRoot2022#
+    driver-class-name: org.postgresql.Driver
